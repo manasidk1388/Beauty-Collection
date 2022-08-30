@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beauty Collection</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/icon.jpg" alt="" width="50" height="34">
+                Beauty Collection
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#imitation">Imitation</a></li>
+                            <li><a class="dropdown-item" href="#cosmetics">Cosmetics</a></li>
+                            <li><a class="dropdown-item" href="#cloth">Clothing</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sliding images -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/imitation/necklace.png" width="900" height="200" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/imitation/ring.jpg" width="900" height="200" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex justify-content-center d-none d-md-block text-dark">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/imitation/Bangle.jpg" width="500" height="200" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Welcome to My Beauty Collection</h5>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <a href="#imitation" class="btn btn-outline-danger">Imitations</a>
+                <a href="#cosmetic" class="btn btn-outline-info">Cosmetics</a>
+                <a href="#cloth" class="btn btn-outline-success">Baby Clothing</a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="full-container">
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/imitation/chain.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gold Chain</h5>
+                    <p class="card-text">Alloy Gold-plated Jewel Set
+                        <br> Special price <b>₹879</b>
+                        <span class="discount">39% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/ring3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Crystal,Brass Ring</h5>
+                    <p class="card-text">Gold-plated Ring
+                        <br> Special price <b>₹199</b>
+                        <span class="discount">20% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/bangle2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> Metal Bangle Set</h5>
+                    <p class="card-text"> Silver-plated Bangles
+                        <br> Special price <b>₹1299</b>
+                        <span class="discount">35% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/chain2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Silver Chain</h5>
+                    <p class="card-text">Silver chain with pendant
+                        <br> Special price <b>₹499</b>
+                        <span class="discount">20% off</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/cosmatic/eyeliner.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Extra Black Eyeliner</h5>
+                    <p class="card-text"> Eyeconic Liquid Eyeliner 4.5 ml (Black)
+                        <br> Special price <b>₹199</b>
+                        <span class="discount">10% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/cosmatic.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cosmatic Set</h5>
+                    <p class="card-text">Includes All Cosmetics needed for makeup.
+                        <br> Special price <b>₹5999</b>
+                        <span class="discount">59% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/blush.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Make-up Brush Set</h5>
+                    <p class="card-text">Professional Wood Make Up Brushes Sets(Set of 3)
+                        <br> Special price <b>₹650</b>
+                        <span class="discount">25% off</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="alert alert-danger text-center" id="imitation" role="alert">
+                Ladies Imitation
+            </div>
+        </div>
+
+        <div class="card-group">
+
+            <div class="card m-2">
+                <img src="images/imitation/ring5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Dimond Ring</h5>
+                    <p class="card-text">Floating Petals Ring 18kt Diamond
+                        <br> Special price <b>₹20,000</b>
+                        <span class="discount">45% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/necklace2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gold And Silver Necklace</h5>
+                    <p class="card-text">Alloy Gold-plated Jewel Set
+                        <br> Special price <b>₹18,679</b>
+                        <span class="discount">39% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/bangle5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Dimond Bracelet</h5>
+                    <p class="card-text">Beautiful Dimond bracelet Set
+                        <br> Special price <b>₹879</b>
+                        <span class="discount">54% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/necklace3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gold Necklace</h5>
+                    <p class="card-text">Alloy Gold-plated Jewel Set
+                        <br> Special price <b>₹8,679</b>
+                        <span class="discount">49% off</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/imitation/tops.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ear-tops</h5>
+                    <p class="card-text">Alloy Gold-plated Ear-tops Set
+                        <br> Special price <b>₹300</b>
+                        <span class="discount">19% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/bangle4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kundan Bangles</h5>
+                    <p class="card-text">Alloy Gold-plated Jewel Set
+                        <br> Special price <b>₹8,679</b>
+                        <span class="discount">32% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/imitation/chain2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text">Silver Chain</h5>
+                    <p class="card-text">Silver chain with pendant
+                        <br> Special price <b>₹499</b>
+                        <span class="discount">25% off</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="alert alert-info text-center" id="cosmatic" role="alert">
+                Variety of Ladies Cosmatics
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/cosmatic/new3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">COCO Perfume (For Women)</h5>
+                    <p class="card-text">COCO Ultra Sensual perfume - 50 ml
+                        <br> Special price <b>₹499</b>
+                        <span class="discount">15% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/new1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nailpolish (pack of 5)</h5>
+                    <p class="card-text">Five colour longlasting nailpolish
+                        <br> Special price <b>₹200</b>
+                        <span class="discount">20% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/new2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PURE Perfume (For Women)</h5>
+                    <p class="card-text"> PURE best black Perfume - 60 ml
+                        <br> Special price <b>₹399</b>
+                        <span class="discount">25% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/new4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Make-up Set</h5>
+                    <p class="card-text">set of foundation,cream and blush.
+                        <br> Special price <b>₹750</b>
+                        <span class="discount">30% off</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/cosmatic/new5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Soft Make-up Brush</h5>
+                    <p class="card-text">Makeup brushes set of 4
+                        <br> Special price <b>₹100</b>
+                        <span class="discount">5% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/new6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Eye Shadow Palette</h5>
+                    <p class="card-text">Multicolor Eye Shadow Palette
+                        <br> Special price <b>₹240</b>
+                        <span class="discount">10% off</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cosmatic/new7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lipstick(Set of 3)</h5>
+                    <p class="card-text">Different shades of lipstick
+                        <br> Special price <b>₹199</b>
+                        <span class="discount">15% off</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="alert alert-success text-center" id="cloth" role="alert">
+                Baby Cloths And Toys
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/cloth/cloth04.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Baby Body-suit</h5>
+                    <p class="card-text">Baby Boy & Baby Girl Body-suit
+                        <br> Special price <b>₹499</b>
+                        <span class="discount">53% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cloth/cloth05.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-text">Baby Body-suit</h5>
+                    <p class="card-text">Baby Boy & Baby Girl Body-suit
+                        <br> Special price <b>₹499</b>
+                        <span class="discount">53% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cloth/cloth2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Baby T-shirt(white)</h5>
+                    <p class="card-text">T-shirt soft and comfortable
+                        <br> Special price <b>₹250</b>
+                        <span class="discount">40% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cloth/cloth04.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Baby Body-suit</h5>
+                    <p class="card-text">Baby-suit soft and comfortable
+                        <br> Special price <b>₹540</b>
+                        <span class="discount">25% off</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="images/cloth/baby2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cute Teddy</h5>
+                    <p class="card-text">Baby Soft-toy 2ft. long
+                        <br> Special price <b>₹145</b>
+                        <span class="discount">30% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cloth/baby4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Baby Shoe</h5>
+                    <p class="card-text">Baby small toe soft shoes
+                        <br> Special price <b>₹345</b>
+                        <span class="discount">37% off</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="images/cloth/baby3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Reindeer Extra Tall Teddy</h5>
+                    <p class="card-text">Beautiful and soft Reindeer teddy
+                        <br> Special price <b>₹699</b>
+                        <span class="discount">24% off</span>
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
